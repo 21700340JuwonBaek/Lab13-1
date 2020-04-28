@@ -3,6 +3,7 @@
 typedef struct {
     char name[30]; //식당명
     int menu; //식당의 메인메뉴
+    float reputaiotn;//평점
     int price; //가격
 } Restaurant;
 
@@ -20,4 +21,5 @@ void searchData(Restaurant *p, int count); //검색하는 함수
 
 void sortName(Restaurant *p, int count); //식당 이름을 정렬하는 함수
 
-void sortPrice(Restaurant *p, int count); //메뉴 가격순으로 정렬하는 
+void sortPrice(Restaurant *p, int count); //메뉴 가격순으로 정렬하는 함수
+
